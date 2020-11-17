@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+
     </div>
   )
 }
@@ -11,7 +12,6 @@ const Home = () => {
 const Header = () => {
   return (
     <nav>
-      
       <ul>
         <li>Home</li>
         <li>Sobre</li>
@@ -19,6 +19,15 @@ const Header = () => {
       </ul>
     </nav>
   )
+}
+
+const Main = () => {
+  return (
+    <div>
+      <h1>Pagina Principal</h1>
+    </div>
+  )
+
 }
 
 export default Home;
