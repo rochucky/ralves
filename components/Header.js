@@ -9,7 +9,7 @@ const Header = (props) => {
         <title>Rodrigo Alves - {props.title}</title>
       </Head>
       <div className="title">
-      <h2>Rodrigo Alves</h2>
+       <h2>Rodrigo Alves</h2>
       </div>
       <div className="menu">
         <ul>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // styles
-import styles from '../../src/styles/main.scss';
+import styles from '../../src/styles/sobre.scss';
 
 //components
 import Header from '../../components/Header';
