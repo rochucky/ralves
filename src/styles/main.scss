@@ -5,7 +5,11 @@ body{
   height: 100vh;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(200,200,200)
+  background-color: rgb(200,200,200);
+}
+
+.main, #__next{
+  min-height: 100vh;
 }
 
 nav {
