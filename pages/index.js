@@ -12,7 +12,7 @@ import Home from '../components/Home';
 const App = () => {
   
   return (
-    <div>
+    <div className="main">
       <Header title="Home"/>
       <div className="content">
         <Home />

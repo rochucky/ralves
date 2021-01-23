@@ -14,7 +14,7 @@ const Header = (props) => {
       <div className="menu">
         <ul>
           <li className="home"> 
-            <Link href="/">Home</Link>
+            <Link href="/" prefatch={true}>Home</Link>
           </li>
           <li className="sobre"> 
             <Link href="/sobre">Sobre</Link>
