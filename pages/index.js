@@ -1,24 +1,23 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-const Home = () => {
+// styles
+import styles from '../src/styles/main.scss';
+
+//components
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Home from '../components/Home';
+
+
+const App = () => {
+  
   return (
-    <div>
-      <Header />
+    <div className="main">
+      <Header title="Home"/>
+      <Home />
+      <Footer />
     </div>
   )
 }
 
-const Header = () => {
-  return (
-    <nav>
-      
-      <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Blog</li>
-      </ul>
-    </nav>
-  )
-}
-
-export default Home;
+export default App;
